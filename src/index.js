@@ -11,7 +11,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import CompanyList from "./routes/CompanyList";
 import Navbar from "./components/Navbar";
-import Signin from "./routes/Signin";
+import SignUp from "./routes/SignUp";
 const AppLayout = () => {
     return(
         <>
@@ -40,8 +40,8 @@ const router = createBrowserRouter([
             element: <CompanyList />,
           },
           {
-            path: "Signin",
-            element: <Signin />,
+            path: "SignUp",
+            element: <SignUp />,
           },
     ]
 }

@@ -1,11 +1,12 @@
 
-import Navbar from "./Components/Navbar"
-import "./styles.css"
-import Home from "./Pages/Home"
-import About from "./Pages/About"
-import CompanyList from "./Pages/CompanyList"
-import SignIn from "./Pages/SignIn"
-import Tasks from "./Pages/Tasks"
+import Navbar from "./Components/Navbar";
+import "./styles.css";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import CompanyList from "./Pages/CompanyList";
+import SignUp from "./components/SignUp";
+import UserPool from "./UserPool";
+import Tasks from "./Pages/Tasks";
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
     case "/companyList":
         component = <CompanyList />
       break
-    case "/signIn":
-        component = <SignIn />
+    case "/SignUp":
+        component = <SignUp />
         break
   }
   return (
