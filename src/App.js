@@ -1,5 +1,5 @@
 
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 import "./styles.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -7,6 +7,7 @@ import CompanyList from "./Pages/CompanyList";
 import SignUp from "./components/SignUp";
 import UserPool from "./UserPool";
 import Tasks from "./Pages/Tasks";
+import Login from "./routes/Login";
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
       break
     case "/SignUp":
         component = <SignUp />
+        break
+    case "/Login":
+        component = <Login />
         break
   }
   return (
