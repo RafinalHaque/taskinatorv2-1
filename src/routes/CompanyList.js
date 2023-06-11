@@ -3,7 +3,7 @@ import react from "react"
 function CompanyList() {
     return (   
         <div className="Contact"> 
-           <h1>CompanyListList</h1> 
+           <h1>Company List</h1> 
         </div>
     )
 }
